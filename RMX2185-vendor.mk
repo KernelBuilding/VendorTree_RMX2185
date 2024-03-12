@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX2185
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/RMX2185/proprietary/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.RMX2185:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.RMX2185 \
     vendor/realme/RMX2185/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/realme/RMX2185/proprietary/product/etc/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
     vendor/realme/RMX2185/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
@@ -14,6 +15,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/realme/RMX2185/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/realme/RMX2185/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
+    vendor/realme/RMX2185/proprietary/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service \
     vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/etc/diracmobile.config:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/diracmobile.config \
     vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libDiracAPI_SHARED.so \
     vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/lib/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdpframework.so \
