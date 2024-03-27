@@ -23,5 +23,4 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/lib64/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdpframework.so
 
 PRODUCT_PACKAGES += \
-    EngineerMode \
-    ImsService
+    EngineerMode
